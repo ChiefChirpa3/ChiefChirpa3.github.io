@@ -1,0 +1,88 @@
+header {
+  background: linear-gradient(#00000000 0%, #1c1d31 90%),
+    url(assets/banner.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  color: #fbcc6c;
+}
+p {
+  margin: 0;
+  color: inherit;
+}
+header > #headerSubtitle {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Minecraft";
+  margin: 0;
+  color: #fbcc6c;
+}
+header > .downloadButtons {
+  position: absolute;
+  font-family: "Minecraft";
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  width: 100%;
+}
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+#logo {
+  position: absolute;
+  width: 30em;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.downloadButton {
+  transition: all 200ms ease-out;
+  font-size: 25px;
+  color: #f6cb75;
+  /* border-radius: 15px; */
+  background: #444a71;
+  padding: 10px;
+  text-align: center;
+  margin: 25px;
+  display: inline-block;
+  border: 5px solid #c0713f;
+  /* border: 5px solid #662e96; */
+}
+.downloadButton:hover {
+  transform: scale(1.25);
+  color: #d48af1; 
+  background: #444a71;
+  border: 5px solid #683d8d;
+}
+.socials {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.socials > a {
+  color: #ffffff00;
+}
+svg {
+  fill: #fbcc6c;
+  transition: 200ms;
+}
+svg:hover {
+  fill: #c87333;
+}
+body {
+  overflow: hidden;
+}
